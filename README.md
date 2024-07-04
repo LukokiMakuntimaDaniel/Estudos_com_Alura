@@ -1,7 +1,3 @@
-# Estudos_com_Alura
-Lista de exercicios feito na alura
-
-
 # Lista de Exercícios - Alura + Oracle
 
 Este repositório contém uma lista de exercícios resolvidos dos cursos oferecidos pela Alura em parceria com a Oracle. Os exercícios abrangem diversas áreas da programação, incluindo Java, Programação Orientada a Objetos, e o framework Spring Boot.
