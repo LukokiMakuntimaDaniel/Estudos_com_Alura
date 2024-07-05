@@ -1,6 +1,7 @@
 package box.solution.lukoki.boxSolution;
 
 import box.solution.lukoki.boxSolution.model.DadosLocalizacao;
+import box.solution.lukoki.boxSolution.model.MinhaLocalizacao;
 import box.solution.lukoki.boxSolution.service.ConsumoAPI;
 import box.solution.lukoki.boxSolution.service.ConverterDados;
 import org.springframework.boot.CommandLineRunner;
@@ -21,6 +22,7 @@ public class BoxSolutionApplication implements CommandLineRunner {
 		System.out.println(json);
 		ConverterDados converterDados = new ConverterDados();
 		DadosLocalizacao dadosLocalizacao = converterDados.obterDados(json,DadosLocalizacao.class);
-		System.out.println(dadosLocalizacao);
+		MinhaLocalizacao minhaLocalizacao = new MinhaLocalizacao(dadosLocalizacao);
+		System.out.println(minhaLocalizacao.getBairro());
 	}
 }
