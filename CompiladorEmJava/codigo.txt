@@ -1,0 +1,3 @@
+inicio
+    escreva(5 + 3);
+fi
