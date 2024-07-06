@@ -1,6 +1,6 @@
 package Analisadores;
 
-public class BinaryOpNode extends ASTNode{
+public class BinaryOpNode extends ASTNode {
     public final ASTNode left;
     public final Token operator;
     public final ASTNode right;
@@ -16,3 +16,4 @@ public class BinaryOpNode extends ASTNode{
         return "(" + left + " " + operator.getValor() + " " + right + ")";
     }
 }
+

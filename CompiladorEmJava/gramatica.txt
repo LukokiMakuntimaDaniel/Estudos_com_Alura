@@ -1,0 +1,7 @@
+programa        -> 'inicio' declaracoes 'fim'
+declaracoes     -> declaracao*
+declaracao      -> comando_escreva
+comando_escreva -> 'escreva' '(' expressao ')' ';'
+expressao       -> termo (('+' | '-') termo)*
+termo           -> fator (('*' | '/') fator)*
+fator           -> NUMERO_INTEIRO | IDENTIFICADOR | '(' expressao ')'

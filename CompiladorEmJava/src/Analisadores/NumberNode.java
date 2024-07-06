@@ -1,6 +1,6 @@
 package Analisadores;
 
-public class NumberNode extends ASTNode{
+public class NumberNode extends ASTNode {
     public final Token token;
 
     public NumberNode(Token token) {

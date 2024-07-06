@@ -1,4 +1,5 @@
 package Analisadores;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -167,5 +168,4 @@ public class Lexer {
         tokens.add(new Token(TokenType.EOF, ""));
         return tokens;
     }
-
 }
