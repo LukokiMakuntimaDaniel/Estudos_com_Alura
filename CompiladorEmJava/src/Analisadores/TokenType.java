@@ -1,0 +1,13 @@
+package Analisadores;
+
+public enum TokenType {
+    INICIO, FIM, SE, ENTAO, SENAO, ENQUANTO, FACA, ESCREVA, LEIA,
+    // Identificadores e literais
+    IDENTIFICADOR, NUMERO_INTEIRO, STRING,
+    // Operadores
+    MAIS, MENOS, MULTIPLICACAO, DIVISAO, IGUAL, IGUAL_IGUAL, DIFERENTE, MENOR, MENOR_IGUAL, MAIOR, MAIOR_IGUAL,
+    // Símbolos de pontuação
+    PONTO_VIRGULA, VIRGULA, PARENTESE_ESQUERDO, PARENTESE_DIREITO, CHAVE_ESQUERDA, CHAVE_DIREITA,
+    // Fim de arquivo
+    EOF
+}
