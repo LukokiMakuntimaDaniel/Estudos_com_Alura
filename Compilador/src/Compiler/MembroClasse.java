@@ -1,0 +1,5 @@
+package Compiler;
+
+class MembroClasse {
+    
+}
